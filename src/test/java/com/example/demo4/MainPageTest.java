@@ -13,6 +13,7 @@ public class MainPageTest {
     private MainPage mainPage;
 
 @BeforeEach    public void setUp() {
+    //test
         ChromeOptions options = new ChromeOptions();
         // Fix the issue https://github.com/SeleniumHQ/selenium/issues/11750
         options.addArguments("--remote-allow-origins=*");
